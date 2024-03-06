@@ -31,17 +31,17 @@ variable "location_name" {
 
 variable "resource_group_name" {
   description = "Azure Resource Group name"
-  default = "smithaciactsrg"
+  default = "debasmitaciactsrg"
 }
 
 variable "mysql_server_name" {
   description = "Azure MySQL Server name"
-  default = "smithaciactsmysql"
+  default = "debasmitaciactsmysql"
 }
 
 variable "mysql_server_login" {
   description = "Azure MySQL Server Login User"
-  default = "smithaciactsuser"
+  default = "debasmitaciactsuser"
 }
 
 variable "mysql_server_password" {
